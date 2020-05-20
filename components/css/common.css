@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: #737373;
+  line-height: 1.5;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  letter-spacing: .2px;
+  font-family: 'Harmattan', sans-serif;
+}
+
+input, select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.centered {
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.db-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.db-section.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.db-section .header {
+  margin-bottom: 24px;
+}
+
+.db-section .heading {
+  font-size: 23px;
+  color: #121a39;
+  font-weight: 900;
+}
+
+.blue-btn {
+  background: #6799cf;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 105%;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+.blue-btn.long {
+  width: 100%;
+}
+
+.stroked-input {
+  padding: 10px 16px;
+  font-size: 93%;
+  color: #222b45;
+  background: #fdfdff;
+  border: 1px solid #e4e9f2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  display: block;
+  line-height: 1;
+  width: 100%;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translate(100%, 0);
+            transform: translate(100%, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translate(100%, 0);
+            transform: translate(100%, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+/*# sourceMappingURL=common.css.map */

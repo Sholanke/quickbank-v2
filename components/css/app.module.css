@@ -1,0 +1,18 @@
+.app {
+  padding: 0 24px;
+  background-color: #f8fafb;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .app {
+    padding: 0 19px;
+  }
+}
+/*# sourceMappingURL=app.module.css.map */

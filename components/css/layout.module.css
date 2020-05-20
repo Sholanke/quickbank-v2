@@ -1,0 +1,16 @@
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 700px 1fr;
+      grid-template-columns: 200px 700px 1fr;
+  grid-gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=layout.module.css.map */

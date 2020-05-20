@@ -1,0 +1,14 @@
+@import "./mixin.scss";
+
+.app{
+    padding: 0 24px;
+    background-color: #f8fafb;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+
+    @include mobile {
+        padding: 0 19px;
+    }
+}
